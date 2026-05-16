@@ -16,7 +16,7 @@ bash
 # 1. Setup database
 psql -U postgres -c "CREATE DATABASE hotel_management;"
 cd backend && npm install && npm run migrate
-# ✅ Tables created + admin@hotel.com / admin123 seeded
+
 
 # 2. Start backend
 cp .env.example .env  # fill in your values
